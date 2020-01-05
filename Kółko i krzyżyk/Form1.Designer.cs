@@ -62,7 +62,7 @@
             this.zakończToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(500, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(513, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -198,88 +198,88 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(300, 106);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(289, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 37);
+            this.label2.Size = new System.Drawing.Size(152, 25);
             this.label2.TabIndex = 11;
-            this.label2.Text = "X =";
+            this.label2.Text = "XXXXXXXXXX";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(300, 55);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(289, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 37);
+            this.label3.Size = new System.Drawing.Size(152, 25);
             this.label3.TabIndex = 12;
-            this.label3.Text = "O =";
+            this.label3.Text = "XXXXXXXXXX";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(28, 297);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(13, 292);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(195, 26);
+            this.label4.Size = new System.Drawing.Size(175, 25);
             this.label4.TabIndex = 13;
             this.label4.Text = "RUNDA GRACZA:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(300, 159);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(289, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 37);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 14;
-            this.label1.Text = "REMIS =";
+            this.label1.Text = "Remis";
             // 
             // o_win
             // 
             this.o_win.AutoSize = true;
-            this.o_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.o_win.Location = new System.Drawing.Point(372, 55);
+            this.o_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.o_win.Location = new System.Drawing.Point(460, 155);
             this.o_win.Name = "o_win";
-            this.o_win.Size = new System.Drawing.Size(35, 37);
+            this.o_win.Size = new System.Drawing.Size(23, 25);
             this.o_win.TabIndex = 15;
             this.o_win.Text = "0";
             // 
             // x_win
             // 
             this.x_win.AutoSize = true;
-            this.x_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.x_win.Location = new System.Drawing.Point(372, 106);
+            this.x_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.x_win.Location = new System.Drawing.Point(460, 120);
             this.x_win.Name = "x_win";
-            this.x_win.Size = new System.Drawing.Size(35, 37);
+            this.x_win.Size = new System.Drawing.Size(23, 25);
             this.x_win.TabIndex = 16;
             this.x_win.Text = "0";
             // 
             // draw
             // 
             this.draw.AutoSize = true;
-            this.draw.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.draw.Location = new System.Drawing.Point(438, 159);
+            this.draw.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.draw.Location = new System.Drawing.Point(460, 186);
             this.draw.Name = "draw";
-            this.draw.Size = new System.Drawing.Size(35, 37);
+            this.draw.Size = new System.Drawing.Size(23, 25);
             this.draw.TabIndex = 17;
             this.draw.Text = "0";
             // 
             // round_for
             // 
             this.round_for.AutoSize = true;
-            this.round_for.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.round_for.Location = new System.Drawing.Point(108, 329);
+            this.round_for.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.round_for.Location = new System.Drawing.Point(194, 292);
             this.round_for.Name = "round_for";
-            this.round_for.Size = new System.Drawing.Size(32, 37);
+            this.round_for.Size = new System.Drawing.Size(152, 25);
             this.round_for.TabIndex = 18;
-            this.round_for.Text = "x";
+            this.round_for.Text = "XXXXXXXXXX";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 375);
+            this.ClientSize = new System.Drawing.Size(513, 332);
             this.Controls.Add(this.round_for);
             this.Controls.Add(this.draw);
             this.Controls.Add(this.x_win);
@@ -300,6 +300,8 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(535, 388);
+            this.MinimumSize = new System.Drawing.Size(535, 388);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

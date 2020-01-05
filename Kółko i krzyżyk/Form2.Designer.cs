@@ -59,6 +59,7 @@
             // 
             this.p1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.p1.Location = new System.Drawing.Point(118, 14);
+            this.p1.MaxLength = 10;
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(271, 35);
             this.p1.TabIndex = 2;
@@ -67,6 +68,7 @@
             // 
             this.p2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.p2.Location = new System.Drawing.Point(118, 72);
+            this.p2.MaxLength = 10;
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(271, 35);
             this.p2.TabIndex = 3;

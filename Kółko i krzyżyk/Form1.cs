@@ -164,6 +164,7 @@ namespace Kółko_i_krzyżyk
             draw.Text = "0";
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
