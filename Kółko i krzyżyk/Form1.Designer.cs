@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.nowaGraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetujWynikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zakończToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.A1 = new System.Windows.Forms.Button();
             this.A2 = new System.Windows.Forms.Button();
@@ -48,7 +49,6 @@
             this.x_win = new System.Windows.Forms.Label();
             this.draw = new System.Windows.Forms.Label();
             this.round_for = new System.Windows.Forms.Label();
-            this.resetujWynikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,21 +62,28 @@
             this.zakończToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(500, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(500, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // nowaGraToolStripMenuItem
             // 
             this.nowaGraToolStripMenuItem.Name = "nowaGraToolStripMenuItem";
-            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(105, 32);
+            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(105, 29);
             this.nowaGraToolStripMenuItem.Text = "Nowa gra";
             this.nowaGraToolStripMenuItem.Click += new System.EventHandler(this.nowaGraToolStripMenuItem_Click);
+            // 
+            // resetujWynikiToolStripMenuItem
+            // 
+            this.resetujWynikiToolStripMenuItem.Name = "resetujWynikiToolStripMenuItem";
+            this.resetujWynikiToolStripMenuItem.Size = new System.Drawing.Size(138, 29);
+            this.resetujWynikiToolStripMenuItem.Text = "Resetuj wyniki";
+            this.resetujWynikiToolStripMenuItem.Click += new System.EventHandler(this.resetujWynikiToolStripMenuItem_Click);
             // 
             // zakończToolStripMenuItem
             // 
             this.zakończToolStripMenuItem.Name = "zakończToolStripMenuItem";
-            this.zakończToolStripMenuItem.Size = new System.Drawing.Size(93, 32);
+            this.zakończToolStripMenuItem.Size = new System.Drawing.Size(93, 29);
             this.zakończToolStripMenuItem.Text = "Zakończ";
             this.zakończToolStripMenuItem.Click += new System.EventHandler(this.zakończToolStripMenuItem_Click);
             // 
@@ -264,16 +271,9 @@
             this.round_for.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.round_for.Location = new System.Drawing.Point(108, 329);
             this.round_for.Name = "round_for";
-            this.round_for.Size = new System.Drawing.Size(38, 37);
+            this.round_for.Size = new System.Drawing.Size(32, 37);
             this.round_for.TabIndex = 18;
-            this.round_for.Text = "X";
-            // 
-            // resetujWynikiToolStripMenuItem
-            // 
-            this.resetujWynikiToolStripMenuItem.Name = "resetujWynikiToolStripMenuItem";
-            this.resetujWynikiToolStripMenuItem.Size = new System.Drawing.Size(138, 29);
-            this.resetujWynikiToolStripMenuItem.Text = "Resetuj wyniki";
-            this.resetujWynikiToolStripMenuItem.Click += new System.EventHandler(this.resetujWynikiToolStripMenuItem_Click);
+            this.round_for.Text = "x";
             // 
             // Form1
             // 
@@ -304,6 +304,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kółko i krzyżyk";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
